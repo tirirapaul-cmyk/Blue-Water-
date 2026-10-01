@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Water | Agua Pura de Vertiente en Tulcán</title>
+    <meta name="description" content="Agua purificada a domicilio en Tulcán. Blue Water te ofrece agua pura de vertiente, tratada con ósmosis inversa. Pedidos al 099 083 8987.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Banner: Día Mundial del Agua -->
+    <div id="promo-banner" class="promo-banner active">
+        <p>💧 Día Mundial del Agua - Consume Agua Pura de Vertiente en Tulcán | Pedidos al <strong>099 083 8987</strong></p>
+        <button class="close-banner" onclick="document.getElementById('promo-banner').style.display='none'"><i class="fas fa-times"></i></button>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Blue Water Logo">
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#producto">Producto</a></li>
+                    <li><a href="#hogares">Hogares</a></li>
+                    <li><a href="#restaurantes">Restaurantes</a></li>
+                    <li><a href="#contacto">Pedidos & Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/593990838987?text=Hola%20Blue%20Water,%20quiero%20hacer%20un%20pedido%20de%20botellones%20de%20agua%20para..." target="_blank" class="btn-whatsapp-header">
+                <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+            </a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" id="mobile-nav">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#producto">Producto</a></li>
+            <li><a href="#hogares">Hogares</a></li>
+            <li><a href="#restaurantes">Restaurantes</a></li>
+            <li><a href="#contacto">Pedidos & Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Agua Pura de Vertiente, <br><span>Frescura Real</span> para Tu Hogar y Negocio en Tulcán.</h1>
+                <p>Purificada mediante Ósmosis Inversa de alta tecnología. La mejor opción en botellones de 20L para familias y restaurantes.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/593990838987?text=Hola%20Blue%20Water,%20quiero%20hacer%20un%20pedido%20de%20botellones%20de%20agua%20para..." target="_blank" class="btn btn-primary cta-btn">
+                        Hacer Pedido Ahora ($2,00 a domicilio)
+                    </a>
+                    <a href="#precios" class="btn btn-secondary">Ver Cobertura y Promociones</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="img/planta.jpg" alt="Botellón Blue Water 20L" class="hero-image floating">
+            </div>
+        </div>
+    </section>
+
+    <!-- Promoción y Precios -->
+    <section id="precios" class="pricing section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Precios y Promociones</h2>
+            <div class="pricing-cards">
+                <div class="price-card">
+                    <h3>Retiro en Planta</h3>
+                    <div class="price"><span>$</span>1.50</div>
+                    <p>Por botellón de 20L</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Atención inmediata</li>
+                        <li><i class="fas fa-check"></i> Efectivo y Transferencia</li>
+                    </ul>
+                </div>
+                <div class="price-card highlight">
+                    <div class="badge">Promoción Estrella</div>
+                    <h3>Compra por Volumen</h3>
+                    <div class="price promo-text">10 + 1 GRATIS</div>
+                    <p>¡Compra 10 botellones y recibe 1 gratis!</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Ideal para negocios y familias</li>
+                        <li><i class="fas fa-check"></i> Ahorro constante</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3>Entrega a Domicilio</h3>
+                    <div class="price"><span>$</span>2.00</div>
+                    <p>Por botellón de 20L</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Zonas Sur, Centro y Norte de Tulcán</li>
+                        <li><i class="fas fa-check"></i> Entrega en 1-2 horas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Producto & Proceso -->
+    <section id="producto" class="product section bg-light">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-image">
+                    <div class="glass-card">
+                        <img src="img/planta.jpg" alt="Botellón Blue Water">
+                        <h3>Botellón 20 Litros</h3>
+                        <p>Libre de sodio añadido, inodora, incolora y de sabor neutro.</p>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h2 class="section-title left">Pureza Garantizada</h2>
+                    <ul class="specs-list">
+                        <li><i class="fas fa-tint"></i> <strong>Origen:</strong> Captación propia de vertiente subterránea natural.</li>
+                        <li><i class="fas fa-filter"></i> <strong>Filtrado:</strong> Multietapa (arena, carbón activado).</li>
+                        <li><i class="fas fa-atom"></i> <strong>Tecnología:</strong> Ósmosis Inversa (membranas de alta presión).</li>
+                        <li><i class="fas fa-shield-alt"></i> <strong>Desinfección:</strong> Luz UV / Ozonización.</li>
+                        <li><i class="fas fa-box"></i> <strong>Envase:</strong> PET / Policarbonato rígido de grado alimenticio, tapa hermética y sello termoencogible.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="process-title">Nuestro Proceso de Purificación</h3>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-water"></i></div>
+                    <h4>1. Captación</h4>
+                    <p>Captación de vertiente subterránea natural mediante pozo en planta.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-cogs"></i></div>
+                    <h4>2. Filtrado y Ósmosis</h4>
+                    <p>Filtración biológica natural y Ósmosis Inversa de alta precisión.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                    <h4>3. Sanitización</h4>
+                    <p>Desinfección final UV/Ozono y envasado automatizado seguro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hogares -->
+    <section id="hogares" class="homes section">
+        <div class="container homes-content">
+            <div class="text-content">
+                <h2 class="section-title left">Para tu Hogar</h2>
+                <p>Salud, pureza y seguridad familiar. Nuestra agua de baja mineralización es perfecta para el consumo diario de tu familia.</p>
+                <p>Disfruta de la conveniencia de recibir agua fresca directo en la puerta de tu casa en los sectores Sur, Centro y Norte de Tulcán.</p>
+                <a href="https://wa.me/593990838987?text=Hola%20Blue%20Water,%20quiero%20hacer%20un%20pedido%20de%20botellones%20de%20agua%20para%20mi%20hogar." target="_blank" class="btn btn-primary mt-3">Pedir Agua para Mi Hogar</a>
+            </div>
+            <div class="image-content">
+                <!-- Decorative element or image representation -->
+                <div class="water-drop-shape">
+                    <i class="fas fa-home"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurantes (B2B) -->
+    <section id="restaurantes" class="b2b section bg-dark">
+        <div class="container b2b-content">
+            <div class="image-content">
+                <div class="water-drop-shape alt">
+                    <i class="fas fa-utensils"></i>
+                </div>
+            </div>
+            <div class="text-content">
+                <h2 class="section-title left text-white">Para Restaurantes y Comercios</h2>
+                <p class="text-light">Abastecimiento continuo y puntual para restaurantes de mediano y gran tamaño en Tulcán.</p>
+                <ul class="b2b-benefits">
+                    <li><i class="fas fa-check"></i> Cero interrupciones en la cocina.</li>
+                    <li><i class="fas fa-check"></i> Máxima higiene para la preparación de alimentos.</li>
+                    <li><i class="fas fa-check"></i> Entregas puntuales y programadas.</li>
+                    <li><i class="fas fa-check"></i> Promoción B2B: 1 botellón GRATIS por cada 10 comprados.</li>
+                </ul>
+                <p class="text-light mt-2">Capacidad operativa comprobada para atender clientes exigentes de la gastronomía local.</p>
+                <a href="https://wa.me/593990838987?text=Hola%20Blue%20Water,%20deseo%20solicitar%20abastecimiento%20para%20mi%20restaurante." target="_blank" class="btn btn-secondary mt-3">Solicitar Abastecimiento para Restaurante</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="about section">
+        <div class="container">
+            <h2 class="section-title">La Mejor Planta de Tulcán</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Blue Water es una microempresa tulcaneña dedicada a la purificación, envasado y distribución de agua para consumo humano. Nuestro compromiso principal es con la salud hídrica de la provincia del Carchi, ofreciendo un producto de calidad insuperable.</p>
+                    <div class="location-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Nuestra Planta:</strong><br>
+                            Avenida 20 de Mayo y antigua vía a El Ángel, Tulcán.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-gallery">
+                    <img src="img/planta.jpg" alt="Planta de Producción Blue Water" class="gallery-img rounded-shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo hacer pedido -->
+    <section class="how-to section bg-light">
+        <div class="container">
+            <h2 class="section-title">¿Cómo hacer tu pedido?</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Elige modalidad</h3>
+                    <p>A domicilio ($2.00) o Retiro en planta ($1.50).</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Contáctanos</h3>
+                    <p>Escríbenos por WhatsApp al <strong>099 083 8987</strong> o llámanos.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Confirmación</h3>
+                    <p>Confirmamos tu pedido e información de entrega.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Recibe tu agua</h3>
+                    <p>Recibe tu botellón purificado y sellado en 1 a 2 horas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 class="section-title left">Contacto y Ubicación</h2>
+                <div class="info-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h4>WhatsApp / Teléfono</h4>
+                        <p>099 083 8987</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Dirección</h4>
+                        <p>Planta en Av. 20 de Mayo y antigua vía a El Ángel, Tulcán, Carchi, Ecuador.</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Cobertura</h4>
+                        <p>Zonas Sur, Centro y Norte de Tulcán. Respuesta WhatsApp máx. 1 hora.</p>
+                    </div>
+                </div>
+                
+                <a href="https://wa.me/593990838987?text=Hola%20Blue%20Water,%20quiero%20hacer%20un%20pedido%20de%20botellones%20de%20agua%20para..." target="_blank" class="whatsapp-giant-btn">
+                    <i class="fab fa-whatsapp"></i> Hacer Pedido por WhatsApp
+                </a>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Solicitar Cotización / Pedido</h3>
+                <form action="#" onsubmit="event.preventDefault(); window.open('https://wa.me/593990838987?text=Hola,%20mi%20nombre%20es%20' + document.getElementById('name').value + '.%20Me%20interesa:%20' + document.getElementById('message').value, '_blank');">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu Nombre o Empresa" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Tu Teléfono" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="4" placeholder="¿Cuántos botellones necesitas? ¿Es para hogar o restaurante?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar por WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Blue Water Logo">
+                <p>Agua Pura de Vertiente. Frescura Real.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#producto">Producto</a></li>
+                    <li><a href="#promociones">Promociones</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p>099 083 8987</p>
+                <p>Tulcán, Ecuador</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2027 Blue Water Tulcán. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/593990838987?text=Hola%20Blue%20Water,%20quiero%20hacer%20un%20pedido%20de%20botellones%20de%20agua%20para..." target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+        });
+
+        // Close mobile nav on click
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.remove('active');
+            });
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header Background on Scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
